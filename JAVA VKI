@@ -1,0 +1,11 @@
+        double kg, m ;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Lutfen Boyunuzu (Metre Cinsinden) Giriniz :");
+        m = input.nextDouble();
+        System.out.print("Lutfen Kilonuzu Giriniz : ");
+        kg = input.nextDouble();
+
+        double vki = (kg/m)/m;
+        System.out.print( "Vucut Kitle Indeksiniz :" + vki);
